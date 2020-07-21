@@ -1,24 +1,5 @@
-<p align="center">
-	<a href="https://caddyserver.com"><img src="https://user-images.githubusercontent.com/1128849/36338535-05fb646a-136f-11e8-987b-e6901e717d5a.png" alt="Caddy" width="450"></a>
-</p>
-<h3 align="center">Every Site on HTTPS <!-- Serve Confidently --></h3>
-<p align="center">Caddy is a general-purpose HTTP/2 web server that serves HTTPS by default.</p>
-<p align="center">
-	<a href="https://dev.azure.com/mholt-dev/Caddy/_build?definitionId=5"><img src="https://img.shields.io/azure-devops/build/mholt-dev/afec6074-9842-457f-98cf-69df6adbbf2e/5/master.svg?label=cross-platform%20tests"></a>
-	<a href="https://godoc.org/github.com/caddyserver/caddy"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
-	<a href="https://goreportcard.com/report/caddyserver/caddy"><img src="https://goreportcard.com/badge/github.com/caddyserver/caddy"></a>
-	<br>
-	<a href="https://twitter.com/caddyserver" title="@caddyserver on Twitter"><img src="https://img.shields.io/badge/twitter-@caddyserver-55acee.svg" alt="@caddyserver on Twitter"></a>
-	<a href="https://caddy.community" title="Caddy Forum"><img src="https://img.shields.io/badge/community-forum-ff69b4.svg" alt="Caddy Forum"></a>
-	<a href="https://sourcegraph.com/github.com/caddyserver/caddy?badge" title="Caddy on Sourcegraph"><img src="https://sourcegraph.com/github.com/caddyserver/caddy/-/badge.svg" alt="Caddy on Sourcegraph"></a>
-</p>
-<p align="center">
-	<a href="https://caddyserver.com/download">Download</a> ·
-	<a href="https://caddyserver.com/docs">Documentation</a> ·
-	<a href="https://caddy.community">Community</a>
-</p>
+THIS IS A FORK OF CADDY v1 - EVERYTHING IS STRIPPED EXCEPT THE PIECES NEEDED IN COREDNS.
 
----
 
 Caddy is a **production-ready** open-source web server that is fast, easy to use, and makes you more productive.
 
@@ -94,7 +75,7 @@ package main
 
 import (
 	"github.com/caddyserver/caddy/caddy/caddymain"
-	
+
 	// plug in plugins here, for example:
 	// _ "import/path/here"
 )
@@ -194,7 +175,7 @@ If you want to contribute to the documentation, please [submit an issue](https:/
 
 ### Good First Issue
 
-If you are looking for somewhere to start and would like to help out by working on an existing issue, take a look at our [`Good First Issue`](https://github.com/caddyserver/caddy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) tag 
+If you are looking for somewhere to start and would like to help out by working on an existing issue, take a look at our [`Good First Issue`](https://github.com/caddyserver/caddy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) tag
 
 Thanks for making Caddy -- and the Web -- better!
 
